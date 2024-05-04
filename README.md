@@ -1,5 +1,6 @@
 # ZeroShot_Visualizer
 This repository showcases the integration of large language models (LLMs) and their application in building conversational AI systems like chatbots.
+In this repository app.py is the main python script which is being followed by index.html & styles.css files.
 
 
 Description:
