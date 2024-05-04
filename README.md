@@ -1,5 +1,14 @@
 # ZeroShot_Visualizer
 This repository showcases the integration of large language models (LLMs) and their application in building conversational AI systems like chatbots.
+PROJECT STRUCTURE:
+zero-shot-visualizer/
+├── app.py
+├── static/
+│   └── css/
+│       └── styles.css
+├── templates/
+│   └── index.html
+└── requirements.txt
 
 Description:
 
@@ -22,3 +31,6 @@ The project follows a multi-step process:
 
 7. CODE EXECUTION: Demonstrates the concept of dynamically executing generated code using LangChain, a framework for building applications with large language models. LangChain is used to execute the generated code 
    without needing to write it to a file first.
+
+
+
