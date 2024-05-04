@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Visualization</h1>
+        <form method="post">
+            <label for="query">Enter your query:</label>
+            <input type="text" id="query" name="query" value="{{ query }}">
+            <input type="submit" value="Submit">
+        </form>
+        {% if plot_data %}
+        <h2>Visualization:</h2>
+        <img src="data:image/png;base64,{{ plot_data }}">
+        {% endif %}
+    </div>
+</body>
+</html>
